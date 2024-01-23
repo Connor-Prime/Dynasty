@@ -1,9 +1,6 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import setPage from './js/turns/turns.js'
-import { getTheme, setMight,setStability,setTheme } from './main.jsx'
+import { getTheme,setTheme } from './main.jsx'
 
 function optionOnClick(option){
   setTheme(option[1])
